@@ -1,14 +1,13 @@
-h1 {
-  color: #BA3B46;
-  font-size: 45px;
-  font-family: "Minecraft", sans-serif;
-  font-style: normal;
+header {
+  text-align: center; /* Centra el contenido en línea */
+  margin: -15px 0; /* Opcional: Espacio arriba y abajo del encabezado */
 }
 
-#pie-pagina {
-  color: #BA3B46;
+.titulo {
+  width: 1100px; /* Ajusta el ancho según sea necesario */
+    height: auto; /* Mantiene la proporción de la imagen */
+    max-width: 100%; /* Para evitar que se desborde en pantallas pequeñas */
 }
-
 
 td {
   text-align: center;
@@ -16,6 +15,12 @@ td {
 
 
 body {
-  background-color: #FFEED8;
+  background-color: white;
+  background-image: url('https://i.pinimg.com/736x/87/41/01/874101c93f78ad5f8c9ff7f55048a5ff.jpg'); /* Reemplaza con la ruta de tu imagen */
+    background-position: center; /* Para centrar la imagen */
+    background-size: contain;
+    height: 100vh; /* Para que el body ocupe toda la altura de la ventana */
+    margin: 0; /* Para eliminar márgenes predeterminados */
+    color: white; /* Cambia el color del texto si es necesario */
 }
 
