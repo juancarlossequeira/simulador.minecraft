@@ -16,8 +16,8 @@ td {
 .texto {
   text-align: center;
   background-color: rgba(255, 255, 255, 0.7);  /* Fondo blanco con 80% de opacidad */
-  margin-left: 20%;
-  margin-right: 20%;
+  margin-left: 15%;
+  margin-right: 15%;
   padding-bottom: 2%; /*fondo de la caja*/
 }
 
@@ -41,9 +41,9 @@ td {
 
 
 .intro {
-  margin-left: 10%;
-  margin-right: 10%;
-  font-size: 18px; /*tamaño de la letra*/
+  margin-left: 5%;
+  margin-right: 5%;
+  font-size: 1.8vw; /*tamaño de la letra*/
   padding: 10px;
   text-align: justify;
 }
